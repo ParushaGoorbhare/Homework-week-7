@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="base">
+      <div>
+        <header>
+          <form class="search" id="search-1">
+            <input
+              type="search"
+              placeholder="Enter a city"
+              required
+              id="search-for-city"
+              class="city-search"
+            />
+            <input type="submit" value="Search" class="search-button" />
+          </form>
+        </header>
+        <main>
+          <div class="weather-details">
+            <h1 class="'city-name" id="name-city">Paris</h1>
+            <div>
+              <span id="day">Monday </span> <span id="time"> 13:55</span> ,
+              <span id="condition"> overcast </span>
+              <div>
+                Humidity: <span id="humidity-levels"> 72% </span>, Wind:
+                <span id="wind-levsl"> 6.69km/h</span>
+              </div>
+              <div id="icon"></div>
+              <div class="temperature-details">16</div>
+              <div class="temp-symbol">°C</div>
+            </div>
+          </div>
+        </main>
+
+        <footer>
+          This project was coded by
+          <a href="" target="_blank">Parusha Naidu </a>, is
+          <a href="" target="_blank"> open-sourced on Github</a> and
+          <a href="" target="_blank"> hosted on Netlify </a>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
