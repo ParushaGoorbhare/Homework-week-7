@@ -45,10 +45,10 @@ function apiInfo(city) {
 
 function submit(event) {
   event.preventDefault();
-  let search = doucment.querySelector("#search-for-city");
+  let search = document.querySelector("#search-for-city");
 
   apiInfo(search.value);
 }
 
-let newSearch = document.querySelector("#search");
+let newSearch = document.querySelector("#search-1");
 newSearch.addEventListener("submit", submit);
